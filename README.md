@@ -1,38 +1,36 @@
 # Porject Name
-
-sub title
+> sub title
 
 Overview
 ---
-
 project description simply
 
 Fetures
 ---
-
 + [x] Feture 1
   * [x] Feture Sub Item 1
   * [x] Feture Sub Item 2
 + [x] Feture2 
 
+Install
+---
+``` sh
+```
+
 Usage
 ---
-
 + Dev 
-
 ```
 npm run dev
 ```
 
 + Production
-
 ```
 npm run build
 ```
 
 Command Line Options
 ---
-
 This generator can also be further configured with the following command line flags.
 ```
         --version        output the version number
@@ -50,7 +48,6 @@ This generator can also be further configured with the following command line fl
     
 Structure
 ---
-
 ```
 .
 │── app.js
@@ -71,25 +68,19 @@ Structure
 
 Preview
 ---
-
 + Index
-
 ![Index](./screenshot/index.png)
 
 + Login
-
 ![Login](./screenshot/login.png)
 
 + Table
-
 ![Table](./screenshot/table.png)
 
 + Form
-
 ![Form](./screenshot/form.png)
 
 
 License
 ---
-
 [MIT](LICENSE)

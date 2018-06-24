@@ -1,15 +1,12 @@
 # Porject Name
-
-sub title
+> sub title
 
 简述
 ---
-
 项目简介
 
 特性
 ---
-
 + [x] 项目工程相关
   * [x] 开发环境；静态文件服务器、HTTP代理、热更新
   * [x] 生产构建：代码编译提取压缩合并混淆hash命名base64~
@@ -18,22 +15,18 @@ sub title
 
 使用说明
 ---
-
 + 开发环境
-
 ```
 npm run dev
 ```
 
 + 生产环境
-
 ```
 npm run build
 ```
 
 Command Line Options
 ---
-
 This generator can also be further configured with the following command line flags.
 ```
         --version        output the version number
@@ -51,7 +44,6 @@ This generator can also be further configured with the following command line fl
     
 文件结构
 ---
-
 ```
 .
 │── app.js
@@ -72,25 +64,19 @@ This generator can also be further configured with the following command line fl
 
 效果图
 ---
-
 + 总览
-
 ![总览](./screenshot/index.png)
 
 + 登录
-
 ![登录](./screenshot/login.png)
 
 + Table
-
 ![Table](./screenshot/table.png)
 
 + Form
-
 ![Form](./screenshot/form.png)
 
 
 License
 ---
-
 [MIT](LICENSE)
