@@ -2,29 +2,30 @@
 
 sub title
 
-Overview
+简述
 ---
 
-project description simply
+项目简介
 
-Fetures
+特性
 ---
 
-+ [x] Feture 1
-  * [x] Feture Sub Item 1
-  * [x] Feture Sub Item 2
-+ [x] Feture2 
++ [x] 项目工程相关
+  * [x] 开发环境；静态文件服务器、HTTP代理、热更新
+  * [x] 生产构建：代码编译提取压缩合并混淆hash命名base64~
++ [x] vue
+  * [x] 组件分级 [路由级组件、复用型组件、基础组件(N3)]
 
-Usage
+使用说明
 ---
 
-+ Dev 
++ 开发环境
 
 ```
 npm run dev
 ```
 
-+ Production
++ 生产环境
 
 ```
 npm run build
@@ -48,7 +49,7 @@ This generator can also be further configured with the following command line fl
     -h, --help           output usage information
 ```
     
-Structure
+文件结构
 ---
 
 ```
@@ -69,16 +70,16 @@ Structure
 
 ```
 
-Preview
+效果图
 ---
 
-+ Index
++ 总览
 
-![Index](./screenshot/index.png)
+![总览](./screenshot/index.png)
 
-+ Login
++ 登录
 
-![Login](./screenshot/login.png)
+![登录](./screenshot/login.png)
 
 + Table
 
