@@ -1,0 +1,23 @@
+{
+    "name": "name",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "description",
+    "content_scripts": [{
+        "matches": [
+            "https://www.sample.com/*"
+        ],
+        "js": [
+            "lib/jquery.min.js",
+            "index.js"
+        ],
+        "css": [
+            "lib/bootstrap.min.css",
+            "index.css"
+        ],
+        "run_at": "document_end"
+    }],
+    "permissions": [
+        "https://www.sample.com/"
+    ]
+}
